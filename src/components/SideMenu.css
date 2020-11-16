@@ -1,0 +1,31 @@
+.sidemenu {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    float: left;
+    margin-left: 20px;
+    padding-left: 20px;
+    width:275px;
+  }
+  .sidemenuul {
+    list-style-type: none;
+    padding: 20px;
+    width: 275px;
+    color: #f1f1f1;
+    height: 100%; /* Full height */
+    margin-bottom: 40px;
+  }
+  .sidemenuli >a{
+    display: block;
+    color: #666666;
+    text-decoration: none;
+    padding-top: 20px;
+    margin: 20px 0;
+  }
+  .sidemenuli .a .active {
+    color: black;
+  }
+  

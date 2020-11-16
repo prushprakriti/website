@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /*font-family: 'PT Sans', sans-serif;*/
+}
+
+.home,
+.WhatWeDo,
+.WhoWeAre,
+.Team,
+.ContactUs,
+.HowWeDo {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* font-size: 3rem; */
+}
+.footer{
+  margin-top: 100px;
+}
+.Team {
+  height: 120vh;
+  background-image: url('./images/team.jpg');
+  /* margin-top: 0px; */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  /* padding: 10px; */
+}
+.Team .nav-links {
+ color:black;
+}
+.ContactUs {
+  height: 100vh;
+  background-image: url('./images/ContactUs.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.WhoWeAre {
+  height: 100vh;
+  background-image: url('./images/Page_2_background_image.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 3rem; */
+}
+.WhoWeAreh2 {
+  color:black;
+  font-size: 50px;
+  margin-top: 80px;
+  text-align: center;
+}
+.WhoWeAreText {
+  color:black;
+  font-size: 25px;
+  text-align: center;
+  padding: 50px;
+}
+.WhoWeAre .nav-links {
+  color: black;
+}
+
+.WhatWeDo {
+  height: 120vh;
+  background-image: url('./images/Page_2_background_image.jpg');
+  margin-top: -10px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.WhatWeDoh2 {
+  color:black;
+  margin: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+.WhatWeDo .navbar {
+  background-image: url('./images/Page_3_background_image_header.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+}
+.WhatWeDoText {
+  color:black;
+  font-size: 23px;
+  text-align: justify;
+  float:left;
+  width: 900px;
+  height: 300px;
+  margin-left:50px;
+}
+.HowWeDo {
+  height: 110vh;
+  background-image: url('./images/Page_4_background_image_Footer.jpg');
+  margin-top: -10px;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.HowWeDoh2 {
+  color:black;
+  font-size: 50px;
+  text-align: center;
+}
+.HowWeDo .navbar {
+  background-image: url('./images/Page_4_background_image_Header.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.HowWeDoText {
+  color:black;
+  font-size: 23px;
+  text-align: justify;
+  float:left;
+  width: 900px;
+  height: 300px;
+  margin-left:50px;
+}
+@media screen and (max-width: 768px) {
+.WhoWeAre{
+font-size: 20px;
+}
+}
+@media screen and (max-width: 960px) {
+.WhoWeAre{
+font-size: 20px;
+}
+}
